@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrimate</title>
+    <style>
+
+        #park {
+            /* aspect-ratio: 1294 / 758; */
+            width: 1294px;
+            height: 758px;
+            position: relative;
+            background-image: url('background2.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #beekeeper, #farmer, #birb1, #birb2 {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: -500px;
+            left: -500px;
+        }
+        
+        #birb1, #birb2 {
+            width: 75px;
+            height: 75px;
+
+        }
+
+    </style>
+    <script src="movingCharacter.js" defer></script>
+</head>
+
+<body>
+
+    <p><button onclick="move()" id="moveButton">Move It!</button>&nbsp;<button onclick="stopMoving()">Stop!</button></p>
+    <div id="container">
+        <div id="park"></div>
+        <img id="beekeeper" src="beekeeper/walking e0000.png" alt="beekeeper" />
+        <img id="farmer" src="farmer/walking e0000.png" alt="farmer" />
+        <img id="birb1" src="birb/birbFly w0001.png" alt="flying bird" onclick="characterDataBirb.birdStatus = 'dead'"/>
+         
+        <img id="birb2" src="birb/birbFly w0001.png" alt="flying bird" onclick="characterDataBirb2.birdStatus = 'dead'"/>
+    </div>
+
+</body>
+
+</html>
