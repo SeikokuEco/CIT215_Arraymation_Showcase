@@ -9,6 +9,7 @@
 ## Asset Licenses:
 
 - Farm RPG FREE 16x16 - Tiny Asset Pack:\
+
       Full version license:\
             These asset packs can be used in any commercial or non-commercial project. You are free to modify the assets as you like. \
             However, these asset packs cannot be resold or redistributed, even if modified. \
